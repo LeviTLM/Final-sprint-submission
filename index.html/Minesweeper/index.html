@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css" />
+        <title>Final version of first sprint</title>
+    </head>
+    <body onload="initGame()" oncontextmenu="return false">
+        <button class="but-1" onclick="chooseDifficulty(4)">Noob</button>
+        <button class="but-2"onclick="chooseDifficulty(8)">Intermediate</button>
+        <button onclick="chooseDifficulty(12)">Expert</button>
+        <div class="live">Lives: <span></span></div>
+        <div class="timer">Timer: <span></span></div>
+        <div class="restart" onclick="initGame()"> <span></span> </div>
+        </div>
+        <table>
+            <tbody class="table"></tbody>
+        </table>
+        <script src="jss/main.js"></script>
+        <script src="jss/utilities.js"></script>
+    </body>
+</html>
